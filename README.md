@@ -26,25 +26,6 @@ Chat Client Application screen print:
 - Twilio account. A free Trial account will work.
 - To run locally on your computer using the include web server, install Node.JS and the Twilio Node.JS helper library.
 
-## PHP Application Files
-
-- [index.html](index.html) : Chat client HTML
-- [chat.js](chat.js) : Chat client JavaScript
-- [custom/chat.css](custom/chat.css) : Chat client styles, CSS
-
-- [generateToken.php](generateToken.php) : PHP program to generate Chat access tokens
-- twilio-php-master : Twilio PHP helper library file directory
-
-### Heroku Deploying Files
-
-- [webserver.js](webserver.js) : For localhost testing, a NodeJS Express HTTP Server that serves the Chat client files.
-- [app.json](app.json) : Heroku deployment file to describe the application.
-- [package.json](package.json) : Heroku deployment file which sets the programming language used.
-
-### Node Webserver for localhost testing
-
-- [webserver.js](webserver.js) : For localhost testing, a NodeJS Express HTTP Server that serves the Chat client files.
-
 --------------------------------------------------------------------------------
 ## Twilio Console Configuration
 
@@ -58,6 +39,26 @@ No development or credit card information required to try Chat.
 2. Create an API key and secret string:
 
 [https://www.twilio.com/console/chat/runtime/api-keys](https://www.twilio.com/console/chat/runtime/api-keys)
+
+--------------------------------------------------------------------------------
+## PHP Application Files
+
+- [index.html](index.html) : Chat client HTML
+- [chat.js](chat.js) : Chat client JavaScript
+- [custom/chat.css](custom/chat.css) : Chat client styles, CSS
+
+- [generateToken.php](generateToken.php) : PHP program to generate Chat access tokens
+- twilio-php-master : Twilio PHP helper library file directory
+
+#### Heroku Deploying Files
+
+- [webserver.js](webserver.js) : For localhost testing, a NodeJS Express HTTP Server that serves the Chat client files.
+- [app.json](app.json) : Heroku deployment file to describe the application.
+- [package.json](package.json) : Heroku deployment file which sets the programming language used.
+
+#### Node Webserver for localhost testing
+
+- [webserver.js](webserver.js) : For localhost testing, a NodeJS Express HTTP Server that serves the Chat client files.
 
 --------------------------------------------------------------------------------
 ## For Developers
