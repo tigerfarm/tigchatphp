@@ -1,7 +1,8 @@
 # PHP Chat Web Application
 
-This application is ready to run.
-To deploy to Heroku, you will need an [Heroku account](https://heroku.com/) to host your application.
+This application is ready to run. You will need a web server that can serve static files and run PHP programs.
+
+To deploy to Heroku, an internet cloud service provider, you will need an [Heroku account](https://heroku.com/) to host your application.
 Once you have an account, stay logged in for the deployment and configuration.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tigerfarm/tigchatphp)
@@ -18,10 +19,6 @@ Click Deploy app. You will be prompted for the following environment variables:
 
 Note, you can manage the environment variables from the Heroku dashboard project Settings,
 by clicking Reveal Config Vars.
-
-Twilio Console Configuration steps to configure to use the Chat Web Application.
-+ 
-+ 
 
 Chat Client Application screen print:
 
