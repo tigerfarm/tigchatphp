@@ -17,6 +17,12 @@ Click Deploy app. You will be prompted for the following environment variables:
 Note, you can manage the environment variables from the Heroku dashboard project Settings,
 by clicking Reveal Config Vars.
 
+Twilio Console Configuration steps to configure to use the Chat Web Application.
++ Create a Chat Service:
+[https://www.twilio.com/console/chat/dashboard](https://www.twilio.com/console/chat/dashboard)
++ Create an API key and secret string:
+[https://www.twilio.com/console/chat/runtime/api-keys](https://www.twilio.com/console/chat/runtime/api-keys)
+
 Chat Client Application screen print:
 
 <img src="ChatClient.jpg" width="400"/>
@@ -25,20 +31,6 @@ Chat Client Application screen print:
 
 - Twilio account. A free Trial account will work.
 - To run locally on your computer using the include web server, install Node.JS and the Twilio Node.JS helper library.
-
---------------------------------------------------------------------------------
-## Twilio Console Configuration
-
-These are the steps to configure to use the Chat Web Application.
-No development or credit card information required to try Chat.
-
-1. Create a Chat Service:
-
-[https://www.twilio.com/console/chat/dashboard](https://www.twilio.com/console/chat/dashboard)
-
-2. Create an API key and secret string:
-
-[https://www.twilio.com/console/chat/runtime/api-keys](https://www.twilio.com/console/chat/runtime/api-keys)
 
 --------------------------------------------------------------------------------
 ## PHP Application Files
