@@ -42,7 +42,7 @@ $token->addGrant($chatGrant);
 // render token to string
 echo $token->toJWT();
 
-// echo "\n"
+// echo "\n+ Token :" . $token->toJWT() . ":\n"
 ?>
 
 
