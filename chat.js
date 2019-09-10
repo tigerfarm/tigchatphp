@@ -83,7 +83,7 @@ function onChannelAdded(aChannel) {
 
 function onTokenAboutToExpire() {
     logger("onTokenExpiring: Refresh the token using client id: " + userIdentity);
-    var jqxhr = $.get("generateToken?identity=" + userIdentity, function (token, status) {
+    var jqxhr = $.get("generateToken.php?identity=" + userIdentity, function (token, status) {
         if (token === "0") {
             logger("- Error refreshing the token.");
             return;
