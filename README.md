@@ -10,18 +10,18 @@ When you deploy to Heroku, you will be prompted for an app name.
 The name needs to be unique. Example, enter your name+app (example: davidapp). 
 Click Deploy app. You will be prompted for the following environment variables:
 - ACCOUNT_SID : your Twilio account SID (starts with "AC", available from Twilio Console)
-- CHAT_SERVICE_SID : your Chat service SID
-- CHAT_API_KEY : your Chat API key
+- CHAT_SERVICE_SID : your Chat service SID. To create a Chat Service (CHAT_SERVICE_SID), click
+[here](https://www.twilio.com/console/chat/dashboard).
+- CHAT_API_KEY : your Chat API key. To create an API key and secret string, click
+[here](https://www.twilio.com/console/chat/runtime/api-keys).
 - CHAT_API_KEY_SECRET : your Chat API key secret
 
 Note, you can manage the environment variables from the Heroku dashboard project Settings,
 by clicking Reveal Config Vars.
 
 Twilio Console Configuration steps to configure to use the Chat Web Application.
-+ Create a Chat Service:
-[https://www.twilio.com/console/chat/dashboard](https://www.twilio.com/console/chat/dashboard)
-+ Create an API key and secret string:
-[https://www.twilio.com/console/chat/runtime/api-keys](https://www.twilio.com/console/chat/runtime/api-keys)
++ 
++ 
 
 Chat Client Application screen print:
 
