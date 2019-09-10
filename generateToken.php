@@ -1,8 +1,10 @@
 <?php
 // Documentation: https://www.twilio.com/docs/iam/access-tokens?code-sample=code-creating-an-access-token-chat-2&code-language=PHP&code-sdk-version=5.x
 
-if ($argc > 1) {
-    $tokenIdentity = $argv[1];
+if (isset($argc)) {
+    if ($argc > 1) {
+        $tokenIdentity = $argv[1];
+    }
 } else {
     $tokenIdentity = htmlspecialchars($_REQUEST["identity"]);
 }
