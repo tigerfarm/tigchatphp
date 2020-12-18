@@ -77,7 +77,7 @@
                 "kukulich/fshl": "~2.1",
                 "latte/latte": ">=2.2.0,<2.3.5",
                 "michelf/php-markdown": "~1.4",
-                "nette/application": "~2.3.14",
+                "nette/application": "~2.3.16",
                 "nette/bootstrap": "~2.2",
                 "nette/di": "~2.2",
                 "nette/mail": "~2.2",
@@ -541,7 +541,7 @@
             },
             "require-dev": {
                 "latte/latte": "~2.3@dev",
-                "nette/application": "~2.3.14@dev",
+                "nette/application": "~2.3.16@dev",
                 "nette/bootstrap": "~2.3@dev",
                 "nette/caching": "~2.3@dev",
                 "nette/component-model": "~2.2@dev",
@@ -836,7 +836,7 @@
             },
             "require-dev": {
                 "latte/latte": "~2.2",
-                "nette/application": "~2.3.14",
+                "nette/application": "~2.3.16",
                 "nette/caching": "~2.3",
                 "nette/database": "~2.3",
                 "nette/forms": "~2.3",
