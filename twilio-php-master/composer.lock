@@ -836,7 +836,7 @@
             },
             "require-dev": {
                 "latte/latte": "~2.2",
-                "nette/application": "~2.3",
+                "nette/application": "~2.3.14",
                 "nette/caching": "~2.3",
                 "nette/database": "~2.3",
                 "nette/forms": "~2.3",
